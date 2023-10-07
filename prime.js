@@ -2,17 +2,17 @@ function prime(num)
 {
   if(num%i===0)
   {
-    f+=1
+    cnt+=1
   }
-  return f
+  return cnt
 }
-f=0
+cnt=0
 num1=12
 for (i=1;i<=num1+1;i++)
 {
-p=prime(num1)
+result = prime(num1)
 }
-if (p<=1 )//change this number to 2 to correct the code
+if (result<=2 )//change this number to 2 to correct the code
 {
 console.log("Prime number")
 }
